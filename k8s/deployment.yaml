@@ -14,5 +14,6 @@ spec:
     spec:
       containers:
         - name: hello-container
-          image: ghcr.io/yousef-ahmed-1234/k8-ci-cd-docker:latest
-          imagePullPolicy: Always
+          image: hello-k8s:latest
+          imagePullPolicy: IfNotPresent
+
