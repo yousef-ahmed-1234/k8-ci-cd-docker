@@ -14,5 +14,5 @@ spec:
     spec:
       containers:
         - name: hello-container
-          image: ghcr.io/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME:latest
+          image: ghcr.io/yousef-ahmed-1234/k8-ci-cd-docker:latest
           imagePullPolicy: Always
